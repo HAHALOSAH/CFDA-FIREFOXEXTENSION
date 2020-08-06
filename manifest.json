@@ -1,0 +1,29 @@
+{
+
+  "description": "One-Click Access to the CFDA (Portal)",
+  "manifest_version": 2,
+  "name": "CFDA",
+  "version": "1.0",
+  "homepage_url": "https://justin226.github.io/cfda",
+  "icons": {
+    "48": "icons/cfda-logo48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "*://*/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/cfda-logo32.png",
+    "theme_icons": [{
+        "light": "icons/cfda-logo32.png",
+        "dark": "icons/cfda-logo32.png",
+        "size": 32
+    }],
+    "default_title": "CFDA",
+    "default_popup": "popup.html"
+  }
+
+
+}
